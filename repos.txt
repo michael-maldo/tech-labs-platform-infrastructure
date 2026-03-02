@@ -1,0 +1,5 @@
+tech-labs-platform-infrastructure
+tech-labs-platform-kubernetes
+tech-labs-platform-observability
+tech-labs-app-restaurant
+tech-labs-app-journal
