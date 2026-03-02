@@ -1,0 +1,154 @@
+📘 Official AWS Documentation (All Services)
+
+🔗 AWS Docs Home
+https://docs.aws.amazon.com
+
+This is the master index of documentation for all AWS services.
+
+📌 AWS CLI (Official Docs)
+AWS CLI User Guide
+
+🔗 https://docs.aws.amazon.com/cli/latest/userguide/
+
+This covers:
+
+Installing the AWS CLI (Linux, macOS, Windows)
+
+Configuring credentials & profiles
+
+Using commands for EC2, S3, Lambda, IAM, and more
+
+Pagination
+
+Output formatting
+
+Scripting patterns
+
+It’s the go-to reference for everything CLI.
+
+📌 AWS CLI Command Reference
+
+🔗 https://docs.aws.amazon.com/cli/latest/reference/
+
+This is where you look up every single AWS CLI command and its options. For example:
+
+aws ec2 run-instances
+
+aws s3 cp
+
+aws logs filter-log-events
+
+Each command page includes flags, examples, and expected output.
+
+🛠 AWS Service Documentation
+
+Each AWS service has its own detailed docs.
+
+Examples:
+
+EC2 Documentation
+
+🔗 https://docs.aws.amazon.com/ec2/
+
+Covers:
+
+Instance types
+
+AMIs
+
+Networking
+
+Load balancers
+
+Security groups
+
+S3 Documentation
+
+🔗 https://docs.aws.amazon.com/s3/
+
+Covers:
+
+Buckets
+
+Versioning
+
+Encryption
+
+Lifecycle rules
+
+IAM Documentation
+
+🔗 https://docs.aws.amazon.com/iam/
+
+Covers:
+
+Users / Groups
+
+Roles / Policies
+
+Security best practices
+
+🧠 AWS API & SDK Documentation
+
+Since Terraform and AWS CLI use APIs under the hood:
+
+🔗 AWS API Reference
+https://docs.aws.amazon.com/general/latest/gr/aws_api_services.html
+
+This lists every service’s API operations.
+
+🧩 AWS CLI + Terraform Workflow Docs
+
+These guides help you use CLI to verify what Terraform does:
+
+🔗 Using AWS CLI with Terraform
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs
+
+This provides examples and best practices when combining AWS CLI, Terraform, and providers.
+
+🚀 AWS Learning & Tutorials
+
+In addition to reference docs:
+
+AWS Workshops (hands-on tutorials)
+
+🔗 https://workshops.aws/
+
+AWS Hands-On Labs
+
+🔗 https://aws.amazon.com/training/learner-labs/
+
+These are free and very practical.
+
+🔍 Why You Should Use Official Docs
+
+Always up to date
+
+Directly from AWS product teams
+
+Contains examples + best practices
+
+Covers security warnings and detailed flags
+
+Unofficial tutorials are useful for learning, but official docs are the source of truth.
+
+
+
+🗂 Easy Bookmark List
+
+📌 AWS Docs Home → https://docs.aws.amazon.com
+
+📌 AWS CLI User Guide → https://docs.aws.amazon.com/cli/latest/userguide/
+
+📌 AWS CLI Reference → https://docs.aws.amazon.com/cli/latest/reference/
+
+📌 EC2 Docs → https://docs.aws.amazon.com/ec2/
+
+📌 S3 Docs → https://docs.aws.amazon.com/s3/
+
+📌 IAM Docs → https://docs.aws.amazon.com/iam/
+
+📌 API Reference → https://docs.aws.amazon.com/general/latest/gr/aws_api_services.html
+
+
+AWS service you want to learn next (EC2, IAM, VPC, S3, EKS, etc.)

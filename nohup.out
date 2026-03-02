@@ -128,3 +128,5 @@ libva error: /usr/lib64/dri/nouveau_drv_video.so init failed
 2026-03-02 22:29:19,881 [   8440]   WARN - #c.i.g.c.l.GrazieLoginManager - Need explicit activation dialog agreement, so skipping cloud login
 2026-03-02 22:29:19,882 [   8441]   WARN - #c.i.g.c.l.GrazieLoginManager - Need explicit activation dialog agreement, so skipping cloud login
 2026-03-02 22:29:20,176 [   8735]   WARN - #c.i.g.c.l.GrazieLoginManager - Need explicit activation dialog agreement, so skipping cloud login
+2026-03-02 22:34:16,835 [ 305394]   WARN - #c.i.u.i.p.ProjectIndexableFilesFilterHealthCheck - Following files are indexable but they were NOT found in filter. Errors count: 1. Examples:
+file id=84276 path=/5df5cfc6
