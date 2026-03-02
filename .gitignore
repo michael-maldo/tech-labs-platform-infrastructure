@@ -1,4 +1,8 @@
-.idea
+# IntelliJ
+.idea/
+*.iml
+
+#Terraform
 .terraform/
 *.tfstate
 *.tfstate.backup
@@ -8,3 +12,12 @@ override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
+
+# Ansible
+*.retry
+
+# Environment files
+.env
+
+# OS
+.DS_Store
