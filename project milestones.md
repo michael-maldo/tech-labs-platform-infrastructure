@@ -3,21 +3,21 @@
 
 ## 🟢 Phase 1 — Baseline Automation
 
-- Manual VPS provisioning via Contabo
+- [ ] Manual VPS provisioning via Contabo
 
-- SSH key-based authentication configured
+- [ ] SSH key-based authentication configured
 
-- GitHub repository structured for infrastructure code
+- [ ] GitHub repository structured for infrastructure code
 
-- Ansible inventory defined
+- [ ] Ansible inventory defined
 
-- Common role created (base packages, UFW, updates)
+- [ ] Common role created (base packages, UFW, updates)
 
-- Docker installation automated
+- [ ] Docker installation automated
 
-- GitHub Actions workflow executes Ansible on push
+- [ ] GitHub Actions workflow executes Ansible on push
 
-- Idempotent playbooks verified (safe re-run)
+- [ ] Idempotent playbooks verified (safe re-run)
 
 🎯 Outcome:
 Fresh VPS can be configured automatically from GitHub.

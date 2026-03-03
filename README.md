@@ -1,8 +1,6 @@
 # VPS Platform Automation ( Ansible + GitHub Actions)
 This repository contains automation code used to configure manually provisioned VPS nodes using **Ansible**, executed via **GitHub Actions.**<br>
 
-**Phase 1 — Baseline Automation** 
-
 ## The design philosophy is:
 
 🔥 Disposable infrastructure<br>
