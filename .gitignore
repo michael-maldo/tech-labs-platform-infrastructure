@@ -21,3 +21,6 @@ override.tf.json
 
 # OS
 .DS_Store
+
+#others
+nohup.out
