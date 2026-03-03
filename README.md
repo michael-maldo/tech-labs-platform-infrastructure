@@ -1,12 +1,14 @@
 # VPS Platform Automation ( Ansible + GitHub Actions)
+This repository contains automation code used to configure manually provisioned VPS nodes using **Ansible**, executed via **GitHub Actions.**
 
-The design philosophy is:
+## The design philosophy is:
 
 🔥 Disposable infrastructure<br>
 🔁 Rebuild anytime<br>
 🧾 Everything defined as code<br>
 🚫 No manual configuration drift<br>
 
+## 🏗 Architecture Overview
 ```
 Contabo Web UI → Create VPS
         ↓
@@ -24,14 +26,14 @@ Configured Platform Nodes
 Infrastructure is manually provisioned (VPS creation),<br>
 but configuration is fully automated and reproducible.
 
-🎯 Goals
+## 🎯 Goals
 - Keep VPS nodes clean and disposable
 - Avoid configuration drift
 - Practice Infrastructure as Code principles
 - Demonstrate CI/CD-driven configuration management
 - Build production-style automation portfolio
 
-🖥 Node Layout
+## 🖥 Node Layout
 
 | Node	| Role |
 | - | - |
@@ -46,7 +48,7 @@ Each node starts as:
 
 Everything else is configured by Ansible.
 
-Repository Structure
+## 📂 Repository Structure
 ```
 .
 ├── ansible/
@@ -64,7 +66,7 @@ Repository Structure
         └── deploy.yml
 ```
 
-🚀 How Deployment Works
+## 🚀 How Deployment Works
 
 1. Create VPS manually (Contabo)
 - Deploy Ubuntu
@@ -88,7 +90,7 @@ The workflow:
 - Executes playbooks
 - Configures nodes
 
-🔐 Secrets
+## 🔐 Secrets
 
 The following secret must be set in GitHub:
 
@@ -96,7 +98,7 @@ The following secret must be set in GitHub:
 |-|-|
 | VPS_SSH_KEY | Private SSH key for connecting to VPS |
 
-🔁 Rebuilding The Platform
+## 🔁 Rebuilding The Platform
 To refresh infrastructure:
 1. Destroy VPS in Contabo
 2. Recreate VPS
@@ -110,14 +112,14 @@ This ensures:
 - No configuration drift
 - Fully reproducible setup
 
-🧠 Design Principles
+## 🧠 Design Principles
 - Idempotent playbooks
 - No manual SSH configuration
 - Infrastructure treated as disposable
 - CI-driven configuration
 - Role-based Ansible structure
 
-📦 Example Playbook Execution
+## 📦 Example Playbook Execution
 The main playbook:
 ```
 ansible-playbook -i inventory/hosts.ini site.yml
@@ -125,14 +127,14 @@ ansible-playbook -i inventory/hosts.ini site.yml
 
 Executed automatically via GitHub Actions on every push to main.
 
-🛠 Future Improvements
+## 🛠 Future Improvements
 - Add Terraform for VPS provisioning
 - Dynamic inventory
 - Self-hosted GitHub runner
 - Vault-based secret management
 - Monitoring and observability stack
 
-🎓 Why This Project
+## 🎓 Why This Project
 - This project demonstrates:
 - Configuration management with Ansible
 - CI/CD automation with GitHub Actions
@@ -140,11 +142,11 @@ Executed automatically via GitHub Actions on every push to main.
 - Infrastructure lifecycle thinking
 - Platform engineering mindset
 
-👤 Author
+## 👤 Author
 Michael Maldo<br>
 Cloud / DevOps / Platform Engineering Focus
 
-⭐ Summary
+## ⭐ Summary
 
 This project follows the principle:<br>
 *Servers are cattle, not pets.*
