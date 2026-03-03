@@ -1,5 +1,5 @@
 # tech-labs Platform infrastructure
-Project Milestones 
+## Project Milestones 
 
 ## 🟢 Phase 1 — Baseline Automation
 
