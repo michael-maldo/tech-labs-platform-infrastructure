@@ -1,5 +1,0 @@
-VPS
-
-SSH KEYS
-
-Ansible
